@@ -1,7 +1,7 @@
 from tkinter import *
-
+# importing tkinter
 window=Tk()
-
+#window is root window
 def get_selected_row(event):
     global selected
     index=check_list.curselection()[0]
