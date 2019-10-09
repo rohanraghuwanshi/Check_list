@@ -35,7 +35,7 @@ def delete_item():
     with open("Task.txt",'w') as d:
         for i in y:
             d.write(i+'\n')
-
+# can also use Label() and grid() in a single line
 title=Label(window,text="Check List Application")
 title.grid(row=0,column=1)
 
